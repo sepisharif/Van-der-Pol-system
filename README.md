@@ -31,6 +31,7 @@ The following code demonstrates how the Inductive Linearization (IndLin) techniq
 
 The lines 202-215 of the MainRunNonStiff.m file denote Stopping rule. (the code could used to stop N or could be off to have the fixed N):
 
+ if Loop1>1
   RelEr=(max(abs(y0_update-y0_keep{Loop1-1,:})./y0_update))
         
         if RelEr < tolRelEf
