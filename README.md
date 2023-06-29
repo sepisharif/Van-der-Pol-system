@@ -14,7 +14,7 @@ The following code demonstrates how the Inductive Linearization (IndLin) techniq
 - Stage 2. the adaptive step size based on dydt
 
 
-There are two stes of codes in separet folders, for non-stiff and stiff Van der Pol system.
+### There are two stes of codes in separet folders, for non-stiff and stiff Van der Pol system.
 
 1- MainRun m.file contains all function files and provides access otehr m.files.
 
@@ -30,7 +30,8 @@ There are two stes of codes in separet folders, for non-stiff and stiff Van der 
 ## Stopping rule code and its condition:
 
 The lines 202-215 of the MainRunNonStiff.m file denote Stopping rule. (the code could used to stop N or could be off to have the fixed N):
-RelEr=(max(abs(y0_update-y0_keep{Loop1-1,:})./y0_update));
+
+  RelEr=(max(abs(y0_update-y0_keep{Loop1-1,:})./y0_update))
         
         if RelEr < tolRelEf
             
