@@ -46,7 +46,7 @@ In the MainRunNonStiff.m file, the lines 28-174 indicate the adaptive step size 
 
 ## Periodicity of oscillator code:
 
-The MainRunPeriodicity.m file contains the code to show hoew calculating the first cycle of oscillator could enhance the Indlin solver performance and it could be dramatically usfull when the cycle number of the system goes to infinity.
+The MainRunPeriodicity.m file contains the code to show hoew calculating the first cycle of oscillator could enhance the IndLin solver performance and it could be dramatically usfull when the cycle number of the system goes to infinity.
 
 The same procedure could be observed for the stiff system files.
 
