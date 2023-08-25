@@ -4,7 +4,7 @@ global y0_update
 dose = 1;
 y0=[dose 0];
 minTime=0;
-maxTime=48;
+maxTime=30;
 tolRelEf =1e-6;
 maxLin=20;
 DCDT
