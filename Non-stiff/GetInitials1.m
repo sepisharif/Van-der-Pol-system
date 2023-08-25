@@ -1,4 +1,4 @@
-%% Initials for the adaptive step size calculation
+%% Initials for the adaptive step size calculations
 global y0_update 
 
 dose = 1;
